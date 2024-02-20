@@ -41,7 +41,7 @@
             
 
             <div class="syntax" id="syntax-content">
-                <h2>SLEEC Language Syntax</h2>
+                <h2>SLEEC-TK Language Syntax</h2>
             <p>
                 SLEEC syntax is composed of defBlock and ruleBock. Definitions are recursively defined in the SLEEC language through events, measures or constants.
                 Every event and measure have an eventID and measureID respectively.  The ruleBlock consist of triggers, responses, and defeaters. A trigger can combine events
@@ -54,12 +54,12 @@
             </p>
             <div align="center" class="image-text">
                 <img class="image2" src="images/syntax.png" />
-                <label class="img-text">SLEEC Language Syntax</label>
+                <label class="img-text">SLEEC-TK Language Syntax</label>
             </div>
             </div>
 
             <div class="semantics" id="semantics-content">
-                <h2>SLEEC Language Semantics into CSP</h2>
+                <h2>SLEEC-TK Language Semantics into CSP</h2>
             <p>
                The tock-CSP processes that define the semantics of the rules are computed through a visitor pattern applied to each element of the SLEEC grammar syntax tree, with each SLEEC rule converted to a tock-CSP process. The computation is based on  translation rules. Each event and measure is modelled in tock-CSP as a channel with measure types directly converted into existing CSP datatypes, or introduced as a new scalar datatype in CSP. 
                
@@ -69,7 +69,7 @@
                 width="800" 
                 height="800"> 
             </object>                
-            <label class="img-text">SLEEC Language Semantics</label>
+            <label class="img-text">SLEEC-TK Language Semantics</label>
             </div>
             </div>
                 
